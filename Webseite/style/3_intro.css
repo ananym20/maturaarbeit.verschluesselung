@@ -1,0 +1,10 @@
+/* Grundstil */
+#introSection {
+    margin: 0; 
+    padding: 4rem;
+    background-color: var(--hauptfarbe2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
