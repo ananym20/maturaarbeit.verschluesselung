@@ -1,0 +1,36 @@
+/* Footer */
+footer {
+    margin: 0; 
+    padding: 4rem;
+    background-color: var(--hauptfarbe2);
+    flex-direction: column; 
+    align-items: flex-start; 
+    text-align: left;
+}
+
+/* Footer-Element */
+.footerItem {
+    margin-bottom: 10px; 
+}
+
+/* Links */
+.whiteLink {
+    color: var(--textfarbe);
+    text-decoration: none; 
+}
+
+.whiteLink:hover {
+    text-decoration: underline; 
+}
+
+/* Liste */
+footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer li {
+    margin: 1rem;
+    font-size: 1.1rem; 
+}

@@ -1,0 +1,117 @@
+/* importieren von Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Farbvariabeln */
+:root {
+    --hauptfarbe: #17151b;
+    --hauptfarbe2: #359eea;
+    --textfarbe: white;
+}
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Grundstil */
+body {
+    background-color: var(--hauptfarbe);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1 rem;
+    color: var(--textfarbe);
+    max-width: 1500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Typografie */
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    color: var(--hauptfarbe2);
+}
+
+h3 {
+    margin-bottom: 0.75rem;
+}
+
+.subheading {
+    margin-top: 1.2rem; 
+}
+
+/* Container-Stile */
+.container, .container2 {
+    max-width: 90%;
+}
+
+.container h2, .container2 h2 {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.container p, .container2 p {
+    line-height: 1.75;
+    margin-bottom: 1rem;
+}
+
+.container2 h2, .container2 h3, .container2 p {
+    color: var(--hauptfarbe);
+}
+
+/* Boxen */
+.box {
+    border: 5px solid var(--hauptfarbe2); 
+    padding: 1rem; 
+    margin-top: 1rem; 
+    width: auto; 
+    text-align: left;
+    border-radius: 10px; 
+}
+
+.boxDunkel{
+    border: 5px solid var(--hauptfarbe); 
+    padding: 1rem; 
+    margin-top: 1rem; 
+    width: auto; 
+    text-align: left;
+    border-radius: 10px;
+}
+
+.box img, .boxDunkel img {
+    width: 80%;
+    margin: 20px auto; 
+    display: block; 
+    border-radius: 10px;
+}
+
+/* Flexbox */
+.left, .right {
+    flex: 1;
+    margin-left: 2%;
+    margin-right: 2%;
+    min-width: 46%;
+}
+
+.twoRows{
+    display: flex;
+    justify-content: space-between;
+}
+
+.right input {
+    margin-left: 20px; 
+    font-size: 1.2rem;
+}
+
+.right div {
+    line-height: 1.75; 
+    margin-bottom: 1rem; 
+}
+
+
+
+
+

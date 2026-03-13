@@ -1,0 +1,25 @@
+/* Grundstil */
+#cSection {
+    margin: 0; 
+    padding: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+/* Slider */
+.slider {
+    width: 100%;
+}
+
+/* Häufigkeiten-Container */
+.häufigkeiten {
+    max-width: 20rem;
+}
+
+/* Tabellenzellen */
+.table td {
+    width: 2rem;
+    text-align: center; /* Für eine bessere Darstellung */
+}

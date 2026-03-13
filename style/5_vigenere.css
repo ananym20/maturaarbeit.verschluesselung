@@ -1,0 +1,63 @@
+/* Grundstil */
+#vSection {
+    margin: 0; 
+    padding: 4rem;
+    background-color: var(--hauptfarbe2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+/* Markierungen */
+.mark1 {
+    background-color: lightgray;
+}
+
+.mark2 {
+    background-color: rgb(132, 200, 255);
+}
+
+/* Task Box */
+.boxTask2 {
+    border: 5px solid var(--hauptfarbe);
+    padding: 1rem;
+    margin-top: 3.5rem;
+    width: 50%;
+    text-align: left;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Buttons */
+button {
+    background: var(--hauptfarbe);
+    color: var(--textfarbe);
+    padding: 12px 24px;
+    margin: 10px 5px;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: translateY(-2px);
+}
+
+button:active {
+    transform: translateY(0);
+}
+
+/* Button-Zustände für richtige und falsche Auswahl */
+.buttonWrong:active {
+    background-color: red;
+}
+
+.buttonRight:active{
+    background-color: green;
+}
+
+
+
+
